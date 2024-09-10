@@ -3,3 +3,4 @@ Unsignet commit
 Test
 Testing on a mac
 New Test 
+Testing if the commit would appear from the correct user on github
