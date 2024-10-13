@@ -32,3 +32,16 @@ for (key in user) {
     console.log(key)
     console.log(user[key])
   }
+
+
+
+//Reduce method
+
+const arr = [2, 2, 3, 4, 5];
+const productOfAllNums = arr.reduce((total, currentItem) => {
+    console.log("this is total " + total);
+    console.log("this is current item " + currentItem);
+  return total * currentItem;
+}, 3);
+console.log(productOfAllNums); // Outputs 120;
+console.log(arr);
