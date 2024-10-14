@@ -27,6 +27,25 @@ let customersMapped = customers.map(user => ({
     id: user.id
   }));
 
+console.log(customers)
 console.log(customersMapped)
+
+
+/*
+Write the function sortByAge(users) that gets an array of objects with the age property and sorts them by age.
+*/
+
+let arr = [pete, john, mary];
+
+function sortByAge(users) {
+  users.sort((a,b) => a.age - b.age);
+}
+
+sortByAge(arr);
+
+console.log(arr[0].name)
+console.log(arr[1].name)
+console.log(arr[2].name)
+
 
 
